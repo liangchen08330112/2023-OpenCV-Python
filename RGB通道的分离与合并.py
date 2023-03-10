@@ -1,3 +1,4 @@
+# RGB通道分离与合并
 import cv2
 img = cv2.imread("D:\\opencv_img\\test03.jpg")
 b,g,r = cv2.split(img)  #分离函数

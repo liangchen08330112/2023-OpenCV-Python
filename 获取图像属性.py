@@ -1,3 +1,4 @@
+#获取图像属性
 import cv2
 import numpy as np
 img = cv2.imread("D:\\opencv_img\\test03.jpg")

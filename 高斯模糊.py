@@ -1,3 +1,4 @@
+#高斯模糊
 import cv2
 img = cv2.imread("E:\\opencv_img\\nonblur.jpg")
 dst = cv2.GaussianBlur(img,(9,9),1)

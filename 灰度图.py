@@ -1,3 +1,4 @@
+#灰度图
 import cv2
 img = cv2.imread("D:\\opencv_img\\test03.jpg")
 gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)

@@ -1,3 +1,4 @@
+#摄像头追踪颜色物体
 import cv2
 import numpy as np
 cap=cv2.VideoCapture(0)

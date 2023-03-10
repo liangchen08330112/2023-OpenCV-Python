@@ -1,3 +1,4 @@
+#二值化各种参数
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt

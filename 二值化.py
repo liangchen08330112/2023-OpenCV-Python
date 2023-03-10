@@ -1,3 +1,4 @@
+#二值化
 import cv2
 
 img = cv2.imread("E:\\opencv_img\\erzhihua.jpg")

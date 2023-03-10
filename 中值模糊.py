@@ -1,3 +1,4 @@
+# 中值模糊
 import cv2
 img = cv2.imread("E:\\opencv_img\\zaosheng.jpg")
 dst = cv2.medianBlur(img,3)

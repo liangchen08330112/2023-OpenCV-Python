@@ -1,3 +1,4 @@
+#打印RGB值
 import cv2
 
 img = cv2.imread("D:\\opencv_img\\test06.jpg")

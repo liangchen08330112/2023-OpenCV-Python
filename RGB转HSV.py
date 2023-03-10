@@ -1,4 +1,4 @@
-#RGB转HSV
+# RGB转HSV
 import cv2
 img = cv2.imread("D:\\opencv_img\\test03.jpg")
 cv2.imshow('img',img)
