@@ -1,6 +1,6 @@
 #高斯模糊
 import cv2
-img = cv2.imread("E:\\opencv_img\\nonblur.jpg")
+img = cv2.imread("E:\\opencv_img\\gaussian.jpg")
 dst = cv2.GaussianBlur(img,(9,9),1)
 cv2.imshow('img',img)
 cv2.imshow('dst',dst)
