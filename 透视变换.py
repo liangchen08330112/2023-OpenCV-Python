@@ -11,5 +11,6 @@ M=cv2.getPerspectiveTransform(pts1,pts2)
 
 dst=cv2.warpPerspective(img,M,(columns,rows))
 cv2.imshow("dst",dst)
+cv2.imshow("original",img)
 cv2.waitKey()
 cv2.destroyAllWindows()
