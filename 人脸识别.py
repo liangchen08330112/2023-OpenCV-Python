@@ -34,8 +34,9 @@ def christmas(img,x,y,w,h):
     out=Image.composite(layer,im,layer)
     img=cv2.cvtColor(np.asarray(out),cv2.COLOR_RGB2BGR)
     return img
-print("视频写入中...")
+
 videoWriter=cv2.VideoWriter('testwrite.avi',cv2.VideoWriter_fourcc(*'MJPG'),15,(1000,563))
+print("视频写入中...")
 while(cap.isOpened()):
     ret,frame=cap.read()
     if ret==True:
